@@ -17,6 +17,7 @@
   position: absolute;
   height: 5rem;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .nav-btn {
@@ -52,7 +53,7 @@
 .nav-links:hover {
   color: rgb(230, 68, 68);
   transition: 0.5s ease;
-  transform: scale(1.04);
+  transform: scale(1.09);
 }
 .frm-btn {
   margin-left: 12rem;
