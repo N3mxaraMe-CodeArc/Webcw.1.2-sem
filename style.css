@@ -1,0 +1,15 @@
+*{
+   font-family: 'Josefin Sans', sans-serif;
+   margin: 1rem;
+}
+.nav-bar{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.link{
+   cursor: pointer;
+   text-decoration: none;
+}
