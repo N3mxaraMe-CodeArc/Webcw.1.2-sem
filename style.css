@@ -1,6 +1,5 @@
 *{
    font-family: 'Josefin Sans', sans-serif;
-   margin: 1rem;
 }
 .nav-bar{
    display: flex;
@@ -12,4 +11,10 @@
 .link{
    cursor: pointer;
    text-decoration: none;
+   margin: 1rem;
+   text-transform: uppercase;
+}
+.link:hover{
+   color: red;
+   text-decoration: underline;
 }
