@@ -1,20 +1,10 @@
 *{
    font-family: 'Josefin Sans', sans-serif;
 }
-.nav-bar{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-}
-
-.link{
-   cursor: pointer;
-   text-decoration: none;
-   margin: 1rem;
-   text-transform: uppercase;
-}
-.link:hover{
-   color: red;
-   text-decoration: underline;
+.back-img{
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
 }
