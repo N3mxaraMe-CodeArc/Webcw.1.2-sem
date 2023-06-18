@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   margin: 1rem;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
 
 .nav-links {
