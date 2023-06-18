@@ -1,20 +1,109 @@
-*{
-   font-family: 'Josefin Sans', sans-serif;
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.nav-bar{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
+.back-img {
+  z-index: 000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo {
+  position: absolute;
+  height: 5rem;
+  margin: 1rem;
+  cursor: pointer;
 }
 
-.link{
-   cursor: pointer;
-   text-decoration: none;
-   margin: 1rem;
-   text-transform: uppercase;
+.nav-btn {
+  position: absolute;
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25rem;
 }
-.link:hover{
-   color: red;
-   text-decoration: underline;
+.nav-bar {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  text-transform: uppercase; 
+}
+
+.nav-links {
+  text-decoration: none;
+  margin-left: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 95.52%;
+  text-align: center;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+}
+
+.nav-links:hover {
+  color: rgb(230, 68, 68);
+  transition: 0.5s ease;
+  transform: scale(1.09);
+}
+.frm-btn {
+  margin-left: 12rem;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #d7987a 21.87%,
+    #ba8166 51.56%,
+    #9b6951 100%
+  );
+  border: 1px solid #aa8a8a;
+  border-radius: 30px;
+  height: 3.5rem;
+  width: 9rem;
+  font-size: 0.55rem;
+  line-height: 0.8rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.frm-btn:hover {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #18411d 21.87%,
+    #083517 51.56%,
+    #012408 100%
+  );
+  color: white;
+  transform: scale(1.07);
+  transition: 0.3s ease;
+}
+
+.hero-section {
+  position: absolute;
+}
+
+.discription {
+  margin-top: 15rem;
+  margin-left: 4rem;
+  text-transform: uppercase;
+}
+
+.main-head {
+  padding-right: 70rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.185em;
+  color: rgba(255, 255, 255, 0.927152);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
 }
