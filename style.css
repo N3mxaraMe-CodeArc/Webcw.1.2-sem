@@ -107,7 +107,7 @@
 }
 
 .subheading{
-  font-size: 1.18rem;
+  font-size: 1.45rem;
   letter-spacing: 0.1em;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
@@ -115,10 +115,18 @@
   padding-left: .5rem;
 }
 
+
 .paragraph{
+  font-size: 0.9rem;
   position: absolute;
-  padding-top: 1rem;
+  padding-top: 1.8rem;
   color: #ffffff;
   padding-left: 0.5rem;
-
+  line-height: 1.9rem;
+  width: 36rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+.option-blog{
+  position: absolute;
 }
