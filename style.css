@@ -115,3 +115,10 @@
   padding-left: .5rem;
 }
 
+.paragraph{
+  position: absolute;
+  padding-top: 1rem;
+  color: #ffffff;
+  padding-left: 0.5rem;
+
+}
