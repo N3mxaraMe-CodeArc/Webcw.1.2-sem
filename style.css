@@ -28,17 +28,18 @@
   align-items: center;
   margin-left: 25rem;
 }
+
 .nav-bar {
   justify-content: center;
   display: flex;
   align-items: center;
-  margin: 1rem;
-  text-transform: uppercase; 
+  margin: 0 1rem 1rem 1rem;
+  text-transform: uppercase;
 }
 
 .nav-links {
   text-decoration: none;
-  margin-left: 2rem;
+  margin-left: 4.5rem;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -48,21 +49,21 @@
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   font-size: 0.9rem;
-  cursor: pointer;
+  margin-top: 2rem;
 }
 
 .nav-links:hover {
-  color: rgb(230, 68, 68);
+  color: #ff8515;
   transition: 0.5s ease;
   transform: scale(1.09);
 }
 .frm-btn {
-  margin-left: 12rem;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #d7987a 21.87%,
-    #ba8166 51.56%,
-    #9b6951 100%
+  margin-left: 1rem;
+  background: linear-gradient(
+    89.71deg,
+    #ff8515 -3.22%,
+    #ff8a14 48.26%,
+    #ffd600 99.74%
   );
   border: 1px solid #aa8a8a;
   border-radius: 30px;
@@ -75,15 +76,15 @@
 }
 
 .frm-btn:hover {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #18411d 21.87%,
-    #083517 51.56%,
-    #012408 100%
+  background: linear-gradient(
+    89.71deg,
+    #ffd600 -3.22%,
+    #ff8a14 48.26%,
+    #ff8515 99.74%
   );
   color: white;
   transform: scale(1.07);
-  transition: 0.3s ease;
+  transition: 0.7s ease;
 }
 
 .hero-section {
@@ -95,17 +96,37 @@
   margin-left: 4rem;
   text-transform: uppercase;
 }
-
-/* .main-head {
-  padding-right: 70rem;
-  padding-bottom: 1rem;
-  text-transform: uppercase;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  text-align: center;
-  letter-spacing: 0.185em;
+.main-head {
+  font-size: 4rem;
+  color: #ffffff;
+  /* letter-spacing: 0.185em; */
   color: rgba(255, 255, 255, 0.927152);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
-} */
+  padding-bottom: .7rem;
+  /* font-weight: 400; */
+}
 
+.subheading{
+  font-size: 1.45rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  padding-left: .5rem;
+}
+
+
+.paragraph{
+  font-size: 0.9rem;
+  position: absolute;
+  padding-top: 1.8rem;
+  color: #ffffff;
+  padding-left: 0.5rem;
+  line-height: 1.9rem;
+  width: 36rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+.option-blog{
+  position: absolute;
+}
